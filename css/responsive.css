@@ -1,7 +1,7 @@
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 1024px) {
     h1 {
-        font-size: 120px;
+        font-size: 90px;
     }
     h3 {
         font-size: 20px;
@@ -23,6 +23,9 @@
         -o-transform: rotate(351deg) scale(.7);
         -ms-transform: rotate(351deg) scale(.7);
     }
+	img.animated{
+	    width: 200px;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -31,7 +34,7 @@
         text-align: center;
     }
     h1 {
-        font-size: 110px;
+        font-size: 80px;
     }
     h3 {
         font-size: 18px;
@@ -57,12 +60,15 @@
         left: 370px;
         top: 110px;
     }
+	img.animated{
+	    width: 200px;
+	}
 }
 
 /* Smaller Devices */
 @media only screen and (max-width: 800px) {
     h1 {
-        font-size: 95px;
+        font-size: 65px;
     }
     h3 {
         font-size: 16px;
@@ -77,6 +83,9 @@
     .santa {
         margin-right: -70px;
     }
+	img.animated{
+	    width: 200px;
+	}
 }
 
 /* Mobile Devices */
@@ -86,7 +95,7 @@
         display: none;
     }
     h1 {
-        font-size: 75px;
+        font-size: 50px;
     }
     h3 {
         font-size: 13px;
@@ -102,7 +111,7 @@
         padding-top: 30px;
     }
     #hero p {
-        padding-top: 60px;
+        padding-top: 20px;
     }
     .bigbell {
         height: 160px;
@@ -125,7 +134,7 @@
 /* Smaller Mobile Devices */
 @media only screen and (max-width: 480px) {
     h1 {
-        font-size: 60px;
+        font-size: 40px;
     }
     h2 {
         font-size: 20px;
@@ -160,7 +169,7 @@
 /* Even Smaller Mobile Devices */
 @media only screen and (max-width: 360px) {
     h1 {
-        font-size: 50px;
+        font-size: 30px;
     }
     .btn-reverse {
         padding: 10px;
@@ -188,7 +197,7 @@
 /* Smallest Mobile Devices */
 @media only screen and (max-width: 320px) {
     h1 {
-        font-size: 40px;
+        font-size: 20px;
     }
     h2 {
         font-size: 17px;
